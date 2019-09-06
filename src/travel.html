@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<title>travel</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+	.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #ed502d;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+h3 {color: orangered ;}
+h1,h2,h5,h4,h6{font-family : "th SarabunPSK" font-size: 30px; }
+body,td,th {
+	font-family: "th SarabunPSK";
+	font-size: 20px;
+	font-weight: bold;}
+</style>
+<body class="w3-light-gray">
+
+<div class="topnav" id="myTopnav">
+  <a href="indexxxxxx.html" class="active">หน้าหลัก</a>
+	<div class="dropdown">
+    <button class="dropbtn">มาตรฐานรถทัวร์
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="carstandardb.html">บริษัท บขส</a>
+      <a href="carstandardn.html">บริษัท นครชัยแอร์</a>
+      <a href="carstandard.html">บริษัท สมบัติทัวร์</a>
+    </div>
+  </div> 
+  <a href="travel.html">สถานที่ท่องเที่ยวแนะนำ</a>
+  <a href="openmap.html">ติดตามการเดินทาง GPS</a>
+  <div class="dropdown">
+    <button class="dropbtn">จัดหาเช่ารถยนต์
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://www.rentalcars.com/">rentalcars</a>
+      <a href="http://www.ttanddgroup.com">ttanddgroup</a>
+      <a href="https://www.skyscanner.co.th">skyscanner</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">จัดหาสถานที่พัก
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://www.trivago.co.th">trivago</a>
+      <a href="https://www.agoda.com">agoda</a>
+      <a href="https://www.booking.com">booking</a>
+    </div>
+  </div> 
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><strong></strong>THE DEVELOPMENT OF BUS TICKET COMPARISON</h1>
+    <h6>เว็บแอพพลิเคชั่นบริการเปรียบเทียบ<span class=" w3-red w3-tag">ราคาตั๋วรถทัวร์ </span></h6>
+  </header>
+
+<body>
+	
+	
+	<!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/พระพุทธมิ่งมลคลเอกนาคคีรี ภูเก็ต.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><h3>พระพุทธมิ่งมงคลเอกนาคคีรี ภูเก็ต</h3></b></p>
+        <p>พระพุทธรูปประจำเมืองภูเก็ต เป็นพระพุทธรูปสีขาวขนาดใหญ่ที่ประดิษฐาน ณ บนยอดเขานาคเกิด ภูเขาสูงในเขตป่าสงวนแห่งชาติเขานาคเกิด ตำบลกะรน อำเภอเมือง จังหวัดภูเก็ต</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/หาดถ้ำพระนาง กระบี่.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><h3>หาดถ้ำพระนาง กระบี่</h3></b></p>
+        <p>หาดถ้ำพระนาง หรือ อ่าวถ้ำพระนาง เป็นชายหาดที่สวยงามของจังหวัดกระบี่ มีวิวภูเขาหินปูน และ หน้าผา เดินไปสุดทางจะเจอกับถ้ำที่รายล้อมด้วยทรายขาวและน้ำทะเลใส</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="image/สระมรกต กระบี่.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><h3>สระมรกต จังหวัดกระบี่</h3></b></p>
+        <p>ตั้งอยู่บริเวณป่าทุ่งเตียว ซึ่งจัดเป็นป่าที่ราบต่ำผืนสุดท้ายของประเทศไทย ที่มีพืชพรรณและสัตว์ป่าบางชนิดอาศัยอยู่ในป่านี้เท่านั้น เช่น นกแต้วแล้วท้องดำ</p>
+      </div>
+    </div>
+  </div>
+	
+	<div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/คลองสังเน่ห์ พังงา.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><h3>คลองสังเน่ห์ พังงา</h3></b></p>
+        <p>ตั้งอยู่ที่ตำบลบางนายสี อำเภอตะกั่วป่า มีลักษณะเป็นคลองสายสั้น ๆ ล้อมรอบด้วยผืนป่าเล็ก ๆ ที่สมบูรณ์พร้อมด้วยธรรมชาติ ไฮไลท์อยู่ที่นักท่องเที่ยวจะได้ล่องเรือชมต้นไทรโบราณ อายุร่วมร้อยปี </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/วัดบ้านเด่นสะหลีศรีเมืองแกน.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><h3>วัดบ้านเด่นสะหรีศรีเมืองแกน เชียงใหม่</h3></b></p>
+        <p>ตั้งอยู่ที่ ต.อินทขิล อ.แม่แตง จ.เชียงใหม่ เป็นวัดที่ขึ้นชื่อมากในย่านอำเภอแม่แตง และขึ้นชื่อในหมู่ศรัทธาชาวพุทธ ที่ใครๆ ก็ต่างต้องแวะมาเยื่อน</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="image/wat-phra-that-doi-suthep-chiang-mai.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><h3>วัดพระธาตุดอยสุเทพ เชียงใหม่</h3></b></p>
+        <p>ตั้งอยู่บนยอดดอยสุเทพห่างจากตัวเมืองเชียงใหม่ไปทางทิศตะวันตกประมาณ 14 กิโลเมตร อยู่สูงเหนือระดับน้ำทะเล 1,053 เมตร อยู่ในเขตตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่</p>
+      </div>
+    </div>
+  </div>
+	<div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/วัดพระเจดีย์ซาวหลัง ลำปาง.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><h3>วัดพระเจดีย์ซาวหลัง ลำปาง</h3></b></p>
+        <p>ตั้งอยู่ที่บ้านวังหม้อ ตำบลต้นธงชัย อำเภอเมือง จังหวัดลำปาง ลักษณะการก่อสร้างเป็นศิลปะแบบพม่าผสมศิลปะล้านนา องค์ใหญ่สุดอยู่ตรงกลาง แวดล้อมด้วยเจดีย์อีกสิบเก้าองค์ รวมกันแล้วเป็นยี่สิบองค์</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/วนอุทยานน้ำตกบ๋าหลวง ขอนแก่น.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><h3>วนอุทยานน้ำตกบ๋าหลวง ขอนแก่น</h3></b></p>
+        <p>อยู่ในพื้นที่ป่าสงวนแห่งชาติป่าดงมูล หนึ่งในสถานที่ท่องเที่ยวที่น่าสนใจ คือ น้ำตกบ๋าหลวง มีจุดให้นักท่องเที่ยวพักผ่อนหย่อนใจด้วยกัน 3 จุด จุดแรก"น้ำตกบ๋าหลวง" จุดที่สองชื่อว่า"น้ำย้อย" จุดที่สามชื่อว่า "อ่างนางลอย"</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="image/ล่องแพแม่น้ำแคว กาญ.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><h3>ล่องแพแม่น้ำแคว กาญจนบุรี</h3></b></p>
+        <p>แม่น้ำแควน้อย และแม่น้ำแควใหญ่ เป็นแม่น้ำสายสำคัญของจังหวัดกาญจนบุรีที่มีทัศนียภาพงดงาม สองฟากฝั่งเต็มไปด้วยวิวสวย ๆ บางช่วงก็เป็นป่าไม้อุดมสมบูรณ์ บางช่วงก็เป็นแนวภูเขาสูงใหญ่ บางช่วงก็เป็นไร่สวนของชาวบ้าน การได้นั่งเรือชมวิว</p>
+      </div>
+    </div>
+  </div>
+</div>
+	
+	 
+</body>
+<footer class="w3-center w3-blue w3-padding-16">
+  <p>© 2019 THE DEVELOPMENT OF BUS TICKET COMPARISON APPLICATION WEB ALL RIGHTS RESERVE</p>
+</footer>
+</html>

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>compare</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- <link href="/roundtrip.xml" rel="text"> -->
+<!-- <script src = "../roundtrip.xml"></script> -->
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>  
+    </script>
+</head>
+<style>
+		body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+	.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #ed502d;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+#customers {
+  font-family: "th SarabunPSK";
+  border-collapse: collapse;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #f18f35;}
+
+#customers th {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  background-color: #f18f35;
+  color: white;
+}
+body,td,th {
+	font-family: "th SarabunPSK";
+	font-size: 20px;
+	font-weight: bold;
+}
+/* #loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  border-left: 16px solid pink;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+} */
+</style>
+
+<body class="w3-light-gray"  >
+<div class="topnav" id="myTopnav">
+  <a href="indexxxxxx.html" class="active">หน้าหลัก</a>
+	<div class="dropdown">
+    <button class="dropbtn">มาตรฐานรถทัวร์
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="carstandardb.html">บริษัท บขส</a>
+      <a href="carstandardn.html">บริษัท นครชัยแอร์</a>
+      <a href="carstandard.html">บริษัท สมบัติทัวร์</a>
+    </div>
+  </div> 
+  <a href="travel.html">สถานที่ท่องเที่ยวแนะนำ</a>
+  <a href="openmap.html">ติดตามการเดินทาง GPS</a>
+  <div class="dropdown">
+    <button class="dropbtn">จัดหาเช่ารถยนต์
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://www.rentalcars.com/">rentalcars</a>
+      <a href="http://www.ttanddgroup.com">ttanddgroup</a>
+      <a href="https://www.skyscanner.co.th">skyscanner</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">จัดหาสถานที่พัก
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://www.trivago.co.th">trivago</a>
+      <a href="https://www.agoda.com">agoda</a>
+      <a href="https://www.booking.com">booking</a>
+    </div>
+  </div> 
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+
+<body onload="loadXMLDoc()">
+	<header class="w3-container w3-center w3-padding-48 w3-white">
+	  <h1 class="w3-xxxlarge"><strong></strong>THE DEVELOPMENT OF BUS TICKET COMPARISON</h1>
+  </header>
+<!-- Navbar on small screens --><!-- Page content -->
+
+
+  <!-- Images (Portfolio) --><!-- Contact -->
+  <div class="w3-white w3-padding-large w3-padding-32 w3-margin-top " id="contact">
+  
+	 <div class="w3-panel w3-border w3-border-red">
+<p>	
+<img src="https://booking.busticket.in.th/img/bus-go.png" alt=""> 
+<div style="overflow-x:auto;">
+<!-- <div id ="loader"></div> -->
+<p id = "demo"></p>
+  <table id="customers" class ="tablesorter"></table>
+    <h1 align="center">ไม่พบเส้นทาง หรือเส้นทางถูกยกเลิก</h1>
+
+  </div></p>
+
+  </div> 
+    <!-- <script>
+      function show(){
+      var myVar;
+        myVar = setTimeout(loadXMLDoc,3000);
+      }
+  </script> -->
+  
+
+  <!-- <script>
+      function loadXMLDoc() {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            myFunction(this);
+          }
+        };
+        xmlhttp.open("GET", "./roundtrip.xml", true);
+        xmlhttp.send();
+      }
+      function myFunction(xml) {
+        var i;
+        var xmlDoc = xml.responseXML;
+        var table="<tr><th onclick=sortTable(0)>จุดออกรถ</th><th onclick=sortTable(1)>เวลาออกรถ</th><th onclick=sortTable(2)>มาตราฐาน</th><th onclick=sortTable(3)>ราคา</th><th onclick=sortTable(4)>บริษัท</th></tr>";
+        var x = xmlDoc.getElementsByTagName("roundtrip");
+        for (i = 0; i <x.length; i++) { 
+          var Company_Name =  x[i].getElementsByTagName("company")[0].childNodes[0].nodeValue
+          table += "<tr><td>" +
+          x[i].getElementsByTagName("terminal")[0].childNodes[0].nodeValue +
+          "</td><td>" +
+          x[i].getElementsByTagName("timeout")[0].childNodes[0].nodeValue +
+          "</td><td>" +
+          x[i].getElementsByTagName("standard")[0].childNodes[0].nodeValue +
+          "</td><td>" +
+          x[i].getElementsByTagName("price")[0].childNodes[0].nodeValue +
+          "</td><td>" +  
+          x[i].getElementsByTagName("company")[0].childNodes[0].nodeValue +
+          "</td></tr>"; 
+        }
+        document.getElementById("customers").innerHTML = table;
+      }
+      </script>
+      
+      <script src= "roundtrip.xml"></script>
+      <script>
+        function sortTable(n) {
+          var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+          table = document.getElementById("customers");
+          switching = true;
+          // Set the sorting direction to ascending:
+          dir = "asc"; 
+          /* Make a loop that will continue until
+          no switching has been done: */
+          while (switching) {
+            // Start by saying: no switching is done:
+            switching = false;
+            rows = table.rows;
+            /* Loop through all table rows (except the
+            first, which contains table headers): */
+            for (i = 1; i < (rows.length - 1); i++) {
+              // Start by saying there should be no switching:
+              shouldSwitch = false;
+              /* Get the two elements you want to compare,
+              one from current row and one from the next: */
+              x = rows[i].getElementsByTagName("TD")[n];
+              y = rows[i + 1].getElementsByTagName("TD")[n];
+              /* Check if the two rows should switch place,
+              based on the direction, asc or desc: */
+              if (dir == "asc") {
+                if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                  // If so, mark as a switch and break the loop:
+                  shouldSwitch = true;
+                  break;
+                }
+              } else if (dir == "desc") {
+                if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                  // If so, mark as a switch and break the loop:
+                  shouldSwitch = true;
+                  break;
+                }
+              }
+            }
+            if (shouldSwitch) {
+              /* If a switch has been marked, make the switch
+              and mark that a switch has been done: */
+              rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+              switching = true;
+              // Each time a switch is done, increase this count by 1:
+              switchcount ++; 
+            } else {
+              /* If no switching has been done AND the direction is "asc",
+              set the direction to "desc" and run the while loop again. */
+              if (switchcount == 0 && dir == "asc") {
+                dir = "desc";
+                switching = true;
+              }
+            }
+          }
+        }
+        </script> -->
+      <!-- <script type="text/javascript">
+        $(document).ready(function(){
+          $("#customers").tablesorter();
+        })
+      </script> -->
+</body>
+	<footer class="w3-center w3-black w3-padding-16">
+  <p>© 2019 THE DEVELOPMENT OF BUS TICKET COMPARISON APPLICATION WEB ALL RIGHTS RESERVE</p>
+</footer>
+</html>
+	

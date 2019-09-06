@@ -1,0 +1,300 @@
+<?xml version='1.0'?>
+<roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>เชียงใหม่</terminal>
+        <timeout>09.15</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>19.50</timeto>
+        <standard>Gold Class (VIP) 32 ที่นั่ง</standard>
+        <price>617</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>เชียงใหม่</terminal>
+        <timeout>09.23</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>19.50</timeto>
+        <standard>Gold Class (VIP) 32 ที่นั่ง</standard>
+        <price>617</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>ดอยติ</terminal>
+        <timeout>10.02</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>19.50</timeto>
+        <standard>Gold Class (VIP) 32 ที่นั่ง</standard>
+        <price>617</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>เชียงใหม่</terminal>
+        <timeout>10.00</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>20.05</timeto>
+        <standard>First Class 30 ที่นั่ง</standard>
+        <price>823</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>เชียงใหม่</terminal>
+        <timeout>10.08</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>20.05</timeto>
+        <standard>First Class 30 ที่นั่ง</standard>
+        <price>823</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>ดอยติ</terminal>
+        <timeout>10.47</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>20.05</timeto>
+        <standard>First Class 30 ที่นั่ง</standard>
+        <price>823</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>เชียงใหม่</terminal>
+        <timeout>18.40</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>04.35</timeto>
+        <standard>Gold Class (VIP) 32 ที่นั่ง</standard>
+        <price>617</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>เชียงใหม่</terminal>
+        <timeout>18.48</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>04.35</timeto>
+        <standard>Gold Class (VIP) 32 ที่นั่ง</standard>
+        <price>617</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>ดอยติ</terminal>
+        <timeout>19.27</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>04.35</timeto>
+        <standard>Gold Class (VIP) 32 ที่นั่ง</standard>
+        <price>617</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>เชียงใหม่</terminal>
+        <timeout>19.05</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>05.00</timeto>
+        <standard>Gold Class (VIP) 32 ที่นั่ง</standard>
+        <price>617</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>เชียงใหม่</terminal>
+        <timeout>19.13</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>05.00</timeto>
+        <standard>Gold Class (VIP) 32 ที่นั่ง</standard>
+        <price>617</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>ดอยติ</terminal>
+        <timeout>19.52</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>05.00</timeto>
+        <standard>Gold Class (VIP) 32 ที่นั่ง</standard>
+        <price>617</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>เชียงใหม่</terminal>
+        <timeout>19.30</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>05.30</timeto>
+        <standard>Gold Class (VIP) 32 ที่นั่ง</standard>
+        <price>617</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>เชียงใหม่</terminal>
+        <timeout>19.38</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>05.30</timeto>
+        <standard>Gold Class (VIP) 32 ที่นั่ง</standard>
+        <price>617</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>ดอยติ</terminal>
+        <timeout>20.17</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>05.30</timeto>
+        <standard>Gold Class (VIP) 32 ที่นั่ง</standard>
+        <price>617</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>เชียงใหม่</terminal>
+        <timeout>20.00</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>06.00</timeto>
+        <standard>Gold Class (VIP) 32 ที่นั่ง</standard>
+        <price>617</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>เชียงใหม่</terminal>
+        <timeout>20.08</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>06.00</timeto>
+        <standard>Gold Class (VIP) 32 ที่นั่ง</standard>
+        <price>617</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>ดอยติ</terminal>
+        <timeout>20.47</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>06.00</timeto>
+        <standard>Gold Class (VIP) 32 ที่นั่ง</standard>
+        <price>617</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>เชียงใหม่</terminal>
+        <timeout>20.20</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>05.55</timeto>
+        <standard>First Class 30 ที่นั่ง</standard>
+        <price>823</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>เชียงใหม่</terminal>
+        <timeout>20.28</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>05.55</timeto>
+        <standard>First Class 30 ที่นั่ง</standard>
+        <price>823</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>ดอยติ</terminal>
+        <timeout>21.00</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>05.55</timeto>
+        <standard>First Class 30 ที่นั่ง</standard>
+        <price>823</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>เชียงใหม่</terminal>
+        <timeout>20.45</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>06.20</timeto>
+        <standard>Gold Class (VIP) 32 ที่นั่ง</standard>
+        <price>617</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>เชียงใหม่</terminal>
+        <timeout>20.53</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>06.20</timeto>
+        <standard>Gold Class (VIP) 32 ที่นั่ง</standard>
+        <price>617</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>ดอยติ</terminal>
+        <timeout>-</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>06.20</timeto>
+        <standard>Gold Class (VIP) 32 ที่นั่ง</standard>
+        <price>617</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>เชียงใหม่</terminal>
+        <timeout>21.20</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>06.55</timeto>
+        <standard>First Class 30 ที่นั่ง</standard>
+        <price>823</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>เชียงใหม่</terminal>
+        <timeout>21.28</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>06.55</timeto>
+        <standard>First Class 30 ที่นั่ง</standard>
+        <price>823</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>ดอยติ</terminal>
+        <timeout>-</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>06.55</timeto>
+        <standard>First Class 30 ที่นั่ง</standard>
+        <price>823</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>เชียงใหม่</terminal>
+        <timeout>22.30</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>08.15</timeto>
+        <standard>First Class 30 ที่นั่ง</standard>
+        <price>823</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>เชียงใหม่</terminal>
+        <timeout>22.38</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>08.15</timeto>
+        <standard>First Class 30 ที่นั่ง</standard>
+        <price>823</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>ดอยติ</terminal>
+        <timeout>-</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>08.15</timeto>
+        <standard>First Class 30 ที่นั่ง</standard>
+        <price>823</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>เชียงใหม่</terminal>
+        <timeout>23.00</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>08.45</timeto>
+        <standard>Gold Class (VIP) 32 ที่นั่ง</standard>
+        <price>617</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>เชียงใหม่</terminal>
+        <timeout>23.08</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>08.45</timeto>
+        <standard>Gold Class (VIP) 32 ที่นั่ง</standard>
+        <price>617</price>
+    </roundtrip>
+    <roundtrip>
+        <company>นครชัยแอร์</company>
+        <terminal>ดอยติ</terminal>
+        <timeout>-</timeout>
+        <endterminal>กรุงเทพมหานคร</endterminal>
+        <timeto>08.45</timeto>
+        <standard>Gold Class (VIP) 32 ที่นั่ง</standard>
+        <price>617</price>
+    </roundtrip>
+</roundtrip>

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<title>carsom</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+	.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #ed502d;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+	h3 {color: black;}
+h1,h2,h3,h5,h4,h6{font-family : "th SarabunPSK" font-size: 30px; }
+body,td,th {
+	font-family: "th SarabunPSK";
+	font-size: 20px;
+	font-weight: bold;}
+</style>
+<body class="w3-light-gray">
+
+<div class="topnav" id="myTopnav">
+  <a href="indexxxxxx.html" class="active">หน้าหลัก</a>
+	<div class="dropdown">
+    <button class="dropbtn">มาตรฐานรถทัวร์
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="carstandardb.html">บริษัท บขส</a>
+      <a href="carstandardn.html">บริษัท นครชัยแอร์</a>
+      <a href="carstandard.html">บริษัท สมบัติทัวร์</a>
+    </div>
+  </div> 
+  <a href="travel.html">สถานที่ท่องเที่ยวแนะนำ</a>
+  <a href="openmap.html">ติดตามการเดินทาง GPS</a>
+  <div class="dropdown">
+    <button class="dropbtn">จัดหาเช่ารถยนต์
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://www.rentalcars.com/">rentalcars</a>
+      <a href="http://www.ttanddgroup.com">ttanddgroup</a>
+      <a href="https://www.skyscanner.co.th">skyscanner</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">จัดหาสถานที่พัก
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://www.trivago.co.th">trivago</a>
+      <a href="https://www.agoda.com">agoda</a>
+      <a href="https://www.booking.com">booking</a>
+    </div>
+  </div> 
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+	
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+<header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><strong></strong>THE DEVELOPMENT OF BUS TICKET COMPARISON</h1>
+  </header>
+<body>
+	
+    <h1 style="background-color:rgb(2, 177, 255);"><img src="https://sombattour.com/addons/shared_addons/themes/sbt/images/logo.png" width="130" height="43" alt="">มาตรฐานรถทัวร์ สมบัติทัวร์ </h1>
+  <p>&nbsp;</p>
+<div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/รถทัวร์ลีมูซีน 15 เมตร (ม1ก) สม.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      
+		<div class="w3-container w3-white">
+        <p><b><h3>รถทัวร์ลีมูซีน 15 เมตร (ม1ก)</h3></b></p>
+        <p>
+          <strong>คุณลักษณะ</strong>
+          <ul>
+          <li>รถโดยสารปรับอากาศ 1 ชั้น</li>
+		<li>การจัดวางเก้าอี้ ด้านซ้าย 1 ที่นั่ง ด้านขวา 2 ที่นั่ง</li>
+		<li>เก้าอี้ปรับเอนนอนได้ 135 องศา</li>
+					<li>เก้าอี้แบบมีที่รองน่อง</li>
+					<li>เก้าอี้นวดไฟฟ้า</li>
+          </ul>
+             <strong>การบริการ</strong>
+            <ul>
+           <li> พนักงานต้อนรับ</li>
+				<li>พนักงานบริกร</li>
+             <li> อาหาร และเครื่องดื่ม</li>
+            </ul>         
+          </p>
+
+      </div>
+		
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/Supreme Class (ม1ก) สม.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><h3>Supreme Class (ม1ก)</h3></b></p>
+        <p>
+                        <strong>คุณลักษณะ</strong>
+          <ul>
+ <li>ถโดยสารปรับอากาศ 1 ชั้น</li>
+						<li>การจัดวางเก้าอี้ ด้านซ้าย 1 ที่นั่ง &nbsp; &nbsp; &nbsp;ด้านขวา 2 ที่นั่ง</li>
+						<li>เก้าอี้ปรับเอนนอนได้ 135 องศา</li>
+						<li>เก้าอี้แบบมีที่รองน่อง</li>
+						<li>เก้าอี้นวดไฟฟ้า</li>
+          </ul>
+                        <strong>การบริการ</strong>
+                            <ul>
+                                <li> พนักงานต้อนรับ</li>
+								<li>พนักงานบริกร</li>
+                                <li> อาหาร และเครื่องดื่ม</li>
+                            </ul>         
+                        </p>
+
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="image/Supreme Class (ม4ก) สม.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><h3>Supreme Class (ม4ก)</h3></b></p>
+     <p>
+                        <strong>คุณลักษณะ</strong>
+          <ul>
+ <li>รถโดยสารปรับอากาศ 2 ชั้น</li>
+							<li>การจัดวางเก้าอี้ ด้านซ้าย 1 ที่นั่ง &nbsp; &nbsp; &nbsp; ด้านขวา 2 ที่นั่ง</li>
+							<li>เก้าอี้ปรับเอนนอนได้ 135 องศา</li>
+							<li>เก้าอี้แบบมีที่รองน่อง</li>
+							<li>เก้าอี้นวดไฟฟ้า</li>
+          </ul>
+                        <strong>การบริการ</strong>
+                            <ul>
+                               <li> พนักงานต้อนรับ</li>
+								<li>พนักงานบริกร</li>
+                                <li> อาหาร และเครื่องดื่ม</li>
+                            </ul>         
+                        </p>
+
+
+
+      </div>
+    </div>
+  </div>
+	<div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/Super Class (ม1พ).jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><h3>Super Class (ม1พ)</h3></b></p>
+       <p>
+                        <strong>คุณลักษณะ</strong>
+          <ul>
+ 	<li>รถโดยสารปรับอากาศชั้น1ชนิดที่นั่งพิเศษ</li>
+						<li>การจัดวางเก้าอี้ ด้านซ้าย 2 ที่นั่ง ด้านขวา 2 ที่นั่ง</li>
+						<li>เก้าอี้ปรับเอนนอนได้ 125 องศา</li>
+						<li>เก้าอี้แบบมีที่รองน่อง</li>
+						<li>เก้าอี้นวดไฟฟ้า (เฉพาะรถบางคัน)</li>
+          </ul>
+                        <strong>การบริการ</strong>
+                            <ul>
+                         <li> พนักงานต้อนรับ</li>
+								<li>พนักงานบริกร</li>
+                                <li> อาหาร และเครื่องดื่ม</li>
+                            </ul>         
+                        </p>
+
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/Super Class (ม4พ) สม.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><h3>Super Class (ม4พ)</h3></b></p>
+        <p>
+                        <strong>คุณลักษณะ</strong>
+          <ul>
+    				<li>รถโดยสารสองชั้นปรับอากาศชนิดที่นั่งพิเศษ</li>
+						<li>การจัดวางเก้าอี้ ด้านซ้าย 2 ที่นั่ง ด้านขวา 2 ที่นั่ง</li>
+						<li>เก้าอี้ปรับเอนนอนได้ 125 องศา</li>
+						<li>เก้าอี้แบบมีที่รองน่อง</li>
+						<li>เก้าอี้นวดไฟฟ้า (เฉพาะรถบางคัน)</li>
+          </ul>
+                        <strong>การบริการ</strong>
+                            <ul>
+                               <li> พนักงานต้อนรับ</li>
+								<li>พนักงานบริกร</li>
+                                <li> อาหาร และเครื่องดื่ม</li>
+                            </ul>         
+                        </p>
+
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="image/Star Class (ม1ข) สม.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><h3>Star Class (ม1ข)</h3></b></p>
+         <p>
+                        <strong>คุณลักษณะ</strong>
+          <ul>
+         <li>รถโดยสารปรับอากาศ 1 ชั้น</li>
+						<li>การจัดวางเก้าอี้ ด้านซ้าย 2 ที่นั่ง ด้านขวา 2 ที่นั่ง</li>
+						<li>เก้าอี้ปรับเอนนอนได้ 125 องศา</li>
+						<li>เก้าอี้แบบมีที่รองน่อง</li>
+          </ul>
+                        <strong>การบริการ</strong>
+                            <ul>
+                               <li> พนักงานต้อนรับ</li>
+								<li>พนักงานบริกร</li>
+                                <li> อาหาร และเครื่องดื่ม</li>
+							
+                            </ul>         
+                        </p>
+
+      </div>
+    </div>
+  </div>
+	<div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/Star Class (ม4ข) สม.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><h3>Star Class (ม4ข)</h3></b></p>
+        <p>
+                        <strong>คุณลักษณะ</strong>
+          <ul>
+               <li>รถโดยสารปรับอากาศ 2 ชั้น</li>
+							<li>การจัดวางเก้าอี้ ด้านซ้าย 2 ที่นั่ง ด้านขวา 2 ที่นั่ง</li>
+							<li>เก้าอี้ปรับเอนนอนได้ 125 องศา</li>
+			<li>เก้าอี้แบบมีที่รองน่อง</li>
+          </ul>
+                        <strong>การบริการ</strong>
+                            <ul>
+                             <li> พนักงานต้อนรับ</li>
+							  <li>พนักงานบริกร</li>
+                                <li> อาหาร และเครื่องดื่ม</li>
+                            </ul>         
+                        </p>
+
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/Smart Class (ม4ค) สม.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><h3>Smart Class (ม4ค)</h3></b></p>
+         <p>
+                        <strong>คุณลักษณะ</strong>
+          <ul>
+              <li>รถโดยสารปรับอากาศ 2 ชั้น</li>
+							<li>การจัดวางเก้าอี้ ด้านซ้าย 2 ที่นั่ง ด้านขวา 2 ที่นั่ง</li>
+							<li>เก้าอี้ปรับเอนนอนได้ 125 องศา</li>
+							<li>เก้าอี้แบบมีที่รองน่อง</li>
+          </ul>      
+		  <strong>การบริการ</strong>
+                            <ul>
+								<li>พนักงานบริกร</li>
+                            </ul>  
+          </p>
+
+      </div>
+    </div>
+	</div>
+	
+  </div>
+</div>
+	
+	<footer class="w3-center w3-blue w3-padding-16">
+  <p>© 2019 THE DEVELOPMENT OF BUS TICKET COMPARISON APPLICATION WEB ALL RIGHTS RESERVE</p>
+</footer>
+
+</html>

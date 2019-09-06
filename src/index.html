@@ -1,0 +1,365 @@
+
+<!DOCTYPE html>
+<html>
+<title>THE DEVELOPMENT OF BUS TICKET COMPARISO</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Mali&display=swap" rel="stylesheet">
+
+<style>
+	body {
+  margin: 0;
+}
+
+	.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #ed502d;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+h1 {font-family: "Lucida Console"}
+h4,h6{font-family: 'Mali', cursive; font-size: 40px; }
+h6{font-family: 'Mali', cursive; font-size: 30px; }
+body {font-family: "Mali"}
+body,td,th {
+	font-family: "th SarabunPSK";
+	font-size: 20px;
+	font-weight: bold;
+}
+	input[type=text], select, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+	input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+	
+</style>
+<body class="w3-light-gray">
+
+<div class="topnav" id="myTopnav">
+  <a href="indexxxxxx.html" class="active">หน้าหลัก</a>
+	<div class="dropdown">
+    <button class="dropbtn">มาตรฐานรถทัวร์
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="carstandardb.html">บริษัท บขส</a>
+      <a href="carstandardn.html">บริษัท นครชัยแอร์</a>
+      <a href="carstandard.html">บริษัท สมบัติทัวร์</a>
+    </div>
+  </div> 
+  <a href="travel.html">สถานที่ท่องเที่ยวแนะนำ</a>
+  <a href="openmap.html">ติดตามการเดินทาง GPS</a>
+  <div class="dropdown">
+    <button class="dropbtn">จัดหาเช่ารถยนต์
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://www.rentalcars.com/">rentalcars</a>
+      <a href="http://www.ttanddgroup.com">ttanddgroup</a>
+      <a href="https://www.skyscanner.co.th">skyscanner</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">จัดหาสถานที่พัก
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://www.trivago.co.th">trivago</a>
+      <a href="https://www.agoda.com">agoda</a>
+      <a href="https://www.booking.com">booking</a>
+    </div>
+  </div> 
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><strong></strong>THE DEVELOPMENT OF BUS TICKET COMPARISON</h1>
+   
+  </header>
+	
+<header class="w3-display-container w3-content" style="max-width:1500px;">
+    <img src="image/N_Home.jpg" alt="The Hotel" style="width:100%" height="500">
+    <div class="w3-display-left w3-padding-large">
+		 <h1 class="w3-xxxlarge w3-text-blue w3-hide-small"><b>เลือกเส้นทางการเดินทาง</b></h1>
+     <form action="/result"  method="post" name="form1" target="_parent" class="fa" id="form1" onsubmit="return doSubmit(this);"><center>
+					  <input type="hidden" name="appkey" value="f83956c5260d33981935c9e80d1a5a5d" />
+					  <input type="hidden" name="adult" value="1" />
+					  <input type="hidden" name="busstd" value="all" />
+          <table width="200" border="0" cellspacing="0" cellpadding="0">
+                          
+          </table>                
+          <table width="300" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td height="20" align="left"><span>จังหวัดต้นทาง:</span></td>
+                    </tr>
+                    <tr>
+                      <td align="left"><div align="left">
+                        <select name="departcity" id="departcity" onChange="dispterminal(this.value,'departterminal')" style="width:300px;font-family:Tahoma;font-size:12px;">
+                          <option value="">--กรุณาเลือก--</option>
+									<option value="กรุงเทพมหานคร">กรุงเทพมหานคร</option><option value="กระบี่">กระบี่</option><option value="กาญจนบุรี">กาญจนบุรี</option><option value="กาฬสินธุ์">กาฬสินธุ์</option><option value="กำแพงเพชร">กำแพงเพชร</option><option value="ขอนแก่น">ขอนแก่น</option><option value="จันทบุรี">จันทบุรี</option><option value="ชัยนาท">ชัยนาท</option><option value="ชัยภูมิ">ชัยภูมิ</option><option value="ชุมพร">ชุมพร</option><option value="เชียงราย">เชียงราย</option><option value="เชียงใหม่">เชียงใหม่</option><option value="ตรัง">ตรัง</option><option value="ตราด">ตราด</option><option value="ตาก">ตาก</option><option value="นครนายก">นครนายก</option><option value="นครปฐม">นครปฐม</option><option value="นครพนม">นครพนม</option><option value="นครราชสีมา">นครราชสีมา</option><option value="นครศรีธรรมราช">นครศรีธรรมราช</option><option value="นครสวรรค์">นครสวรรค์</option><option value="นราธิวาส">นราธิวาส</option><option value="น่าน">น่าน</option><option value="บึงกาฬ">บึงกาฬ</option><option value="บุรีรัมย์">บุรีรัมย์</option><option value="ปทุมธานี">ปทุมธานี</option><option value="ประจวบคีรีขันธ์">ประจวบคีรีขันธ์</option><option value="ปราจีนบุรี">ปราจีนบุรี</option><option value="ปัตตานี">ปัตตานี</option><option value="พะเยา">พะเยา</option><option value="พังงา">พังงา</option><option value="พัทลุง">พัทลุง</option><option value="พิจิตร">พิจิตร</option><option value="พิษณุโลก">พิษณุโลก</option><option value="เพชรบุรี">เพชรบุรี</option><option value="เพชรบูรณ์">เพชรบูรณ์</option><option value="แพร่">แพร่</option><option value="ภูเก็ต">ภูเก็ต</option><option value="มหาสารคาม">มหาสารคาม</option><option value="มุกดาหาร">มุกดาหาร</option><option value="ยโสธร">ยโสธร</option><option value="ยะลา">ยะลา</option><option value="ร้อยเอ็ด">ร้อยเอ็ด</option><option value="ระนอง">ระนอง</option><option value="ระยอง">ระยอง</option><option value="ลพบุรี">ลพบุรี</option><option value="ลำปาง">ลำปาง</option><option value="ลำพูน">ลำพูน</option><option value="เลย">เลย</option><option value="ศรีสะเกษ">ศรีสะเกษ</option><option value="สกลนคร">สกลนคร</option><option value="สงขลา">สงขลา</option><option value="สตูล">สตูล</option><option value="สมุทรสงคราม">สมุทรสงคราม</option><option value="สมุทรสาคร">สมุทรสาคร</option><option value="สระแก้ว">สระแก้ว</option><option value="สระบุรี">สระบุรี</option><option value="สิงห์บุรี">สิงห์บุรี</option><option value="สุโขทัย">สุโขทัย</option><option value="สุราษฎร์ธานี">สุราษฎร์ธานี</option><option value="สุรินทร์">สุรินทร์</option><option value="หนองคาย">หนองคาย</option><option value="หนองบัวลำภู">หนองบัวลำภู</option><option value="อยุธยา">อยุธยา</option><option value="อ่างทอง">อ่างทอง</option><option value="อำนาจเจริญ">อำนาจเจริญ</option><option value="อุดรธานี">อุดรธานี</option><option value="อุตรดิตถ์">อุตรดิตถ์</option><option value="อุทัยธานี">อุทัยธานี</option><option value="อุบลราชธานี">อุบลราชธานี</option><option value="เวียงจันทน์">เวียงจันทน์</option>	
+
+                        </select>
+                        </div>  </td>
+                    </tr>
+                    <tr>
+                      <td height="15" align="left">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td height="20" align="left"><span>จังหวัดปลายทาง:</span></td>
+                    </tr>
+                    <tr>
+                      <td align="left">
+                        <div align="left" id="returncitydisp">
+                          
+                          <select name="arrivecity" id="arrivecity" onChange="dispterminal(this.value,'arriveterminal')" style="width:300px;font-family:Tahoma;font-size:12px;">
+                            <option value="">--กรุณาเลือก--</option>
+									<option value="กรุงเทพมหานคร">กรุงเทพมหานคร</option><option value="กระบี่">กระบี่</option><option value="กาญจนบุรี">กาญจนบุรี</option><option value="กาฬสินธุ์">กาฬสินธุ์</option><option value="กำแพงเพชร">กำแพงเพชร</option><option value="ขอนแก่น">ขอนแก่น</option><option value="จันทบุรี">จันทบุรี</option><option value="ชัยนาท">ชัยนาท</option><option value="ชัยภูมิ">ชัยภูมิ</option><option value="ชุมพร">ชุมพร</option><option value="เชียงราย">เชียงราย</option><option value="เชียงใหม่">เชียงใหม่</option><option value="ตรัง">ตรัง</option><option value="ตราด">ตราด</option><option value="ตาก">ตาก</option><option value="นครนายก">นครนายก</option><option value="นครปฐม">นครปฐม</option><option value="นครพนม">นครพนม</option><option value="นครราชสีมา">นครราชสีมา</option><option value="นครศรีธรรมราช">นครศรีธรรมราช</option><option value="นครสวรรค์">นครสวรรค์</option><option value="นราธิวาส">นราธิวาส</option><option value="น่าน">น่าน</option><option value="บึงกาฬ">บึงกาฬ</option><option value="บุรีรัมย์">บุรีรัมย์</option><option value="ปทุมธานี">ปทุมธานี</option><option value="ประจวบคีรีขันธ์">ประจวบคีรีขันธ์</option><option value="ปราจีนบุรี">ปราจีนบุรี</option><option value="ปัตตานี">ปัตตานี</option><option value="พะเยา">พะเยา</option><option value="พังงา">พังงา</option><option value="พัทลุง">พัทลุง</option><option value="พิจิตร">พิจิตร</option><option value="พิษณุโลก">พิษณุโลก</option><option value="เพชรบุรี">เพชรบุรี</option><option value="เพชรบูรณ์">เพชรบูรณ์</option><option value="แพร่">แพร่</option><option value="ภูเก็ต">ภูเก็ต</option><option value="มหาสารคาม">มหาสารคาม</option><option value="มุกดาหาร">มุกดาหาร</option><option value="ยโสธร">ยโสธร</option><option value="ยะลา">ยะลา</option><option value="ร้อยเอ็ด">ร้อยเอ็ด</option><option value="ระนอง">ระนอง</option><option value="ระยอง">ระยอง</option><option value="ลพบุรี">ลพบุรี</option><option value="ลำปาง">ลำปาง</option><option value="ลำพูน">ลำพูน</option><option value="เลย">เลย</option><option value="ศรีสะเกษ">ศรีสะเกษ</option><option value="สกลนคร">สกลนคร</option><option value="สงขลา">สงขลา</option><option value="สตูล">สตูล</option><option value="สมุทรสงคราม">สมุทรสงคราม</option><option value="สมุทรสาคร">สมุทรสาคร</option><option value="สระแก้ว">สระแก้ว</option><option value="สระบุรี">สระบุรี</option><option value="สิงห์บุรี">สิงห์บุรี</option><option value="สุโขทัย">สุโขทัย</option><option value="สุราษฎร์ธานี">สุราษฎร์ธานี</option><option value="สุรินทร์">สุรินทร์</option><option value="หนองคาย">หนองคาย</option><option value="หนองบัวลำภู">หนองบัวลำภู</option><option value="อยุธยา">อยุธยา</option><option value="อ่างทอง">อ่างทอง</option><option value="อำนาจเจริญ">อำนาจเจริญ</option><option value="อุดรธานี">อุดรธานี</option><option value="อุตรดิตถ์">อุตรดิตถ์</option><option value="อุทัยธานี">อุทัยธานี</option><option value="อุบลราชธานี">อุบลราชธานี</option><option value="เวียงจันทน์">เวียงจันทน์</option>	
+
+                          </select>
+                        </div></td>
+                    </tr>
+                    <tr>
+                      <td height="15" align="left">&nbsp;</td>
+                    </tr>
+        </table>
+	    				
+          <table width="200" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td align="left"></td>
+                      </tr>
+          </table>
+          <table width="200" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td height="30" align="left"><div align="center" > 
+                        <input type="submit" name="Submit" value="  ค้นหาเที่ยวรถ  " style="font-family:Tahoma;font-size:13px;"> <a href = "https://www.busticket.in.th/">                   
+                      </div></td>
+            </tr>
+          </table>
+                
+			</center>	  
+      </form>
+    </div>
+  </header>
+ 
+	 <div class="w3-container w3-padding-large w3-whtite">
+    <h4><center><b>เส้นทางแนะนำ</b></center></h4>
+   <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-light-blue">
+        <!-- <form action = "/result" method ="post"> -->
+                <p><i class="fa fa-car" style="font-size:60px;color:lightblue;text-shadow:2px 2px 4px #000000;"></i></p>
+        <p><h6>ภาคเหนือ</h6></p>
+		  <a href = "/result" method = "post"><p id ="departcity" name ="departcity" value = "กรุงเทพมหานคร">กรุงเทพมหานคร - <p id ="arrivecity" name ="arrivecity" value ="เชียงใหม่">เชียงใหม่ </p></p></a>
+		  <p>กรุงเทพมหานคร - เชียงราย</p>
+		  <p>กรุงเทพมหานคร - ลำปาง</p>
+		  <p>กรุงเทพมหานคร - แม่ฮ่องสอน</p>
+		  <p>กรุงเทพมหานคร - น่าน</p>
+      </div>
+     
+
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-car" style="font-size:60px;color:lightblue;text-shadow:2px 2px 4px #000000;"></i></p>
+        <p><h6>ภาคอีสาน</h6></p>
+		  <p> กรุงเทพมหานคร - อุบลราชธานี</p>
+		  <p> กรุงเทพมหานคร - อุดรธานี</p>
+		  <p> กรุงเทพมหานคร - ขอนแก่น</p>
+		  <p> กรุงเทพมหานคร - นครพนม</p>
+		  <p> กรุงเทพมหานคร - เลย</p>
+      </div>
+      <div class="w3-third w3-light-blue">
+        <p><i class="fa fa-car" style="font-size:60px;color:lightblue;text-shadow:2px 2px 4px #000000;"></i></p>
+        <p><h6>ภาคใต้</h6></p>
+		  <p> กรุงเทพมหานคร - นครศรีธรรมราช</p>
+		  <p> กรุงเทพมหานคร - สงขลา</p>
+		  <p> กรุงเทพมหานคร - หาดใหญ่</p>
+		  <p> กรุงเทพมหานคร - กระบี่-พังงา</p>
+		  <p> กรุงเทพมหานคร - ภูเก็ต</p>
+      </div>
+    </div>
+		 </div>
+  </div>
+	
+	
+
+    <div class="w3-row-padding w3-center w3-margin-top">
+  <div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3></h3>
+  <img src="https://www.busticket.in.th/img/transport-tcl.png" height="60px" alt="บริษัท ขนส่ง จำกัด"><br>
+  <p><h6>บริษัท ขนส่ง จำกัด</h6></p>
+  <p>ติดต่อบริการ</p>
+  <p>บริษัท ขนส่ง จำกัด ชั้น 4 อาคารสถานีขนส่งผู้โดยสารกรุงเทพฯ (จตุจักร) 999 ถนนกำแพงเพชร 2 แขวงจตุจักร เขตจตุจักร กรุงเทพฯ 10900</p>
+  <p>ติดต่อโทรศัพท์: 0-2269-6999</p>
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3> </h3>
+  <img src="https://www2.nakhonchaiair.com/assets/img/logo.png" style="width:190px;"><br>
+  <p><h6>บริษัท นครชัยแอร์ จำกัด</h6></p>
+  <p>ติดต่อบริการ</p>
+  <p>บริษัท นครชัยแอร์ จำกัด (สำนักงานใหญ่)
+109 ถ.วิภาวดี-รังสิต แขวงลาดยาว
+เขตจตุจักร กรุงเทพฯ 10900
+โทรศัพท์ (สำนักงาน) 0-2939-4999
+เวลาทำการ (สำนักงาน) 
+จันทร์ - เสาร์ 08.30 - 17.30 น.</p>
+  <p>email : customerservice@nakhonchaiair.com</p>
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3></h3>
+  <img src="https://sombattour.com/addons/shared_addons/themes/sbt/images/logo.png" width="130" height="43" alt=""><br>
+  
+  <p><h6>บริษัท เทพสมบัติจำกัด</h6></p>
+  <p>ติดต่อบริการ</p>
+  <p>วิภาวดี - ศูนย์บริการลูกค้า
+ที่อยู่ : 23/21 ซอยวิภาวดี 13 แขวงลาดยาว เขตจตุจักร กทม. 10900
+
+จุดสังเกต : ตั้งอยู่ริมถนนวิภาวดีรังสิต ฝั่งขาออก ระหว่างซอยวิภาวดี 11 และ 13 (เลยสำนักงานใหญ่ ปตท. ประมาณ 200 เมตร)
+
+โทรศัพท์ : 1215
+
+เวลาทำการ : 04.00-21.00 น.
+
+เวลาให้บริการรับ-ส่งพัสดุ : 8.00-21.00 น.</p>
+  <p>ติดต่อโทร 1215 หรือ 02-030-4999</p>
+  </div>
+</div>
+</div>
+	
+
+	
+	<footer class="w3-center w3-blue w3-padding-16">
+  <p>© 2019 THE DEVELOPMENT OF BUS TICKET COMPARISON APPLICATION WEB ALL RIGHTS RESERVE</p>
+</footer>
+
+</html>
+
