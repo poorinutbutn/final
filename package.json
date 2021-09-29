@@ -13,7 +13,7 @@
     "body-parser": "^1.19.0",
     "ejs": "^2.6.2",
     "fs": "0.0.1-security",
-    "i": "^0.3.6",
+    "i": "^0.3.7",
     "jquery-tablesort": "0.0.11",
     "js2xmlparser": "^4.0.0",
     "pug": "^2.0.4",
